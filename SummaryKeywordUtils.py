@@ -191,11 +191,3 @@ def process_single_pdf(file_path):
     except Exception as e:
         logger.error(f"Some unknown error happened in the pipeline {e}")
         raise e
-    
-
-    update_data = {
-            "$set": {
-                "summary": summary,
-                "keywords": keywords
-            }
-        }
