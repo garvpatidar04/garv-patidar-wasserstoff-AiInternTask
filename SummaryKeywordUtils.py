@@ -97,17 +97,13 @@ def llm_pipeline(sum_size):
 
 # Function to summarize text chunks using the pipeline
 def summarize_text(text_chunks):
-    print('flag 1')
     sum_size = min(100, min([len(_.split(' ')) for _ in text_chunks]))
-    print('flag 2')
     pipe_sum = llm_pipeline(sum_size)
-    print('flag 3')
     summaries = []
     for chunk in text_chunks:
         result = pipe_sum(chunk)
         summary = result[0]['summary_text']
         summaries.append(summary)
-    print('flag 4')
     return summaries
 
 
