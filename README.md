@@ -1,3 +1,5 @@
+## Before Proceeding with this Repository, I request you to also visit this https://github.com/garvpatidar04/garv-patidar-wasserstoff-AiInternTask_2 repository I have also uploaded the MongoDB collection in JSON format and I have done that whole project **without LLM**
+
 # PDF Ingestion and Processing Pipeline (With LLM)
 
 ## Overview
