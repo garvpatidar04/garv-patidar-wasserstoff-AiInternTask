@@ -1,4 +1,4 @@
-# PDF Ingestion and Processing Pipeline
+# PDF Ingestion and Processing Pipeline (With LLM)
 
 ## Overview
 
